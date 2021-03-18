@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:textAlignment="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery Level"
+        android:id="@+id/Battery_level"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltage"
+        android:id="@+id/Battery_Voltage"
+        android:layout_below="@id/Battery_level"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health"
+        android:id="@+id/Battery_Health"
+        android:layout_below="@id/Battery_Voltage"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery Type"
+        android:id="@+id/Battery_type"
+        android:layout_below="@id/Battery_Health"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Charging Source"
+        android:id="@+id/Battery_chargingsource"
+        android:layout_below="@id/Battery_type"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature"
+        android:id="@+id/Battery_temperature"
+        android:layout_below="@id/Battery_chargingsource"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="charging_Status"
+        android:id="@+id/Battery_chargingstatus"
+        android:layout_below="@id/Battery_temperature"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>
+</RelativeLayout>
